@@ -1,0 +1,83 @@
+@import "var";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#particles-js {
+  // outline: 1px solid red;
+  width: 100vw;
+  height: 100vh;
+  background: $background-color;
+  // height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+body {
+  position: relative;
+}
+
+.login-wrapper {
+  background: $loginColor;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: 1em;
+  box-sizing: border-box;
+  position: absolute;
+
+  * {
+    // outline: 1px solid red;
+  }
+
+  .login-title {
+    color: white;
+    margin-top: 8px;
+    font-weight: normal;
+
+    span {
+      color: $red;
+    }
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 8px;
+    * {
+      width: 100%;
+      border: none;
+    }
+
+    input {
+      box-sizing: border-box;
+      background: $inputColor;
+      padding: 6px;
+    }
+
+    button {
+      margin-top: 8px;
+      background: $red;
+      color: white;
+      padding: 6px 12px;
+    }
+  }
+
+  .amount-login {
+    margin-top: 8px;
+    background: #5BC0DE;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=style.scss.map */

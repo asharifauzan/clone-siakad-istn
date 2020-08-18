@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#particles-js {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  z-index: -1; }
+
+body {
+  position: relative; }
+
+.login-wrapper {
+  background: #302E2D;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding: 1em;
+  box-sizing: border-box;
+  position: absolute; }
+  .login-wrapper .login-title {
+    color: white;
+    margin-top: 8px;
+    font-weight: normal; }
+    .login-wrapper .login-title span {
+      color: #ff5252; }
+  .login-wrapper form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 8px; }
+    .login-wrapper form * {
+      width: 100%;
+      border: none; }
+    .login-wrapper form input {
+      box-sizing: border-box;
+      background: #564D3D;
+      padding: 6px; }
+    .login-wrapper form button {
+      margin-top: 8px;
+      background: #ff5252;
+      color: white;
+      padding: 6px 12px; }
+  .login-wrapper .amount-login {
+    margin-top: 8px;
+    background: #5BC0DE;
+    color: white; }
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
